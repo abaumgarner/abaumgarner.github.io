@@ -384,7 +384,6 @@ a {
     height: 15.625em;
     padding: 0;
     margin: 1.25em 0 1.25em 1.25em;
-    border: solid .625em #fff;
 
     -webkit-box-shadow:  0 0 .313em 0 rgba(0, 0, 0, 0.25);
     box-shadow:  0 0 .313em 0 rgba(0, 0, 0, 0.25);
