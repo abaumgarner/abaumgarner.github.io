@@ -455,17 +455,52 @@ a {
     height: 7.813em;
 }
 
-
+/* Tablet*/
 @media screen and (max-width: 768px){
-    body {
-        background: yellow;
+
+    div.grid_7{
+        width: 60%;
+    }
+    div.grid_12{
+        width: 75%;
     }
 
-    section.grid_3 {
-        width: 48%;
+    div.grid_12#main {
+        width: 60%;
+    }
+
+    #profilepicture {
+        max-height: 28.750em;
     }
 
     nav li {
         float: none;
+    }
+}
+
+/* Mobile Size */
+@media screen and (max-width: 400px) {
+    body {
+        background: green;
+    }
+
+    div.grid_12#main {
+        width: 30%;
+    }
+
+    div.grid_12{
+        width: 100%
+    }
+
+    #profilepicture {
+        max-height: 18.750em;
+        margin-top: -1em;
+    }
+
+    nav {
+        display: block;
+    }
+    footer {
+        position: absolute;
     }
 }
