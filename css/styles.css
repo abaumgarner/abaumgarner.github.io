@@ -467,10 +467,17 @@ a {
 
     div.grid_12#main {
         width: 60%;
+        margin-top: -.1em;
     }
 
     #profilepicture {
-        max-height: 28.750em;
+        max-height: 22.75em;
+        margin-top: -3em;
+        margin-right: -1em;
+    }
+
+    p#titlename {
+        font-size: 2em;
     }
 
     div#contact {
@@ -491,6 +498,10 @@ a {
     nav li {
         float: none;
     }
+
+    footer {
+        position: absolute;
+    }
 }
 
 /* Mobile Size */
@@ -500,7 +511,7 @@ a {
     }
 
     #header, header {
-        width: 40%;
+        width: 100%;
     }
 
     p.grid_5 {
@@ -516,7 +527,7 @@ a {
         display: block;
     }
     div.grid_12#main {
-        width: 30%;
+        width: 80%;
     }
 
     div.grid_12{
@@ -543,6 +554,8 @@ a {
     }
     nav {
         display: block;
+        margin-left: 2em;
+        margin-top: 3em;
     }
     footer {
         position: absolute;
