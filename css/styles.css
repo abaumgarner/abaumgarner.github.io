@@ -484,6 +484,26 @@ a {
         background: green;
     }
 
+    header p {
+        font-size: 1.5em;
+    }
+
+    #header, header {
+        width: 40%;
+    }
+
+    p.grid_5 {
+        width: 85%;
+    }
+
+    section.grid_4 {
+        width: 100%;
+    }
+
+    nav a {
+        font-size: 1em;
+        display: block;
+    }
     div.grid_12#main {
         width: 30%;
     }
@@ -495,6 +515,11 @@ a {
     #profilepicture {
         max-height: 18.750em;
         margin-top: -1em;
+    }
+
+    div#contact {
+        font-size: .5em;
+        top: 6em;
     }
 
     nav {
