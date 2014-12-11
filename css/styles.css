@@ -454,3 +454,18 @@ a {
     bottom: 0;
     height: 7.813em;
 }
+
+
+@media screen and (max-width: 768px){
+    body {
+        background: yellow;
+    }
+
+    section.grid_3 {
+        width: 48%;
+    }
+
+    nav li {
+        float: none;
+    }
+}
