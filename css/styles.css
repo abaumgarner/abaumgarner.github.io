@@ -552,12 +552,15 @@ a {
     section.grid_12 >p:first-child{
         margin-left: 0em;
     }
+
     nav {
         display: block;
         margin-left: 2em;
         margin-top: 3em;
     }
+
     footer {
         position: absolute;
+        bottom: 0;
     }
 }
