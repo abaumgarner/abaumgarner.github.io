@@ -42,6 +42,7 @@ div.row div.medium-12 {
     padding-bottom: 1em;
     max-width: 40em;
     color: #0D1710;
+    margin-right: 88px;
 }
 .link {
     padding-top: .313em;
@@ -140,6 +141,9 @@ body.resume div.medium-12.columns div.small-12.columns.nobg p:last-child {
 body.resume div.medium-12.columns div.small-12.columns.nobg p {
     font-size: 1em;
 }
+div.medium-12.columns div.small-12.columns.nobg p span {
+    font-size: .9em;
+}
 /* Portfolio */
 div.medium-12.columns ul.thumbs li.content .close {
     color: #644c4c;
@@ -215,5 +219,5 @@ button.btn.float-button-light {
     background: rgba(192, 192, 192, 0.8);
 }
 .waves-float {
-    ox-shadow: 0 1px 1.5px 1px rgba(255,255,255,.12);
+    box-shadow: 0 1px 1.5px 1px rgba(255,255,255,.12);
 }
